@@ -4,22 +4,30 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Ubuntu, Geneva, Tahoma, sans-serif
 }
 
 /* MAIN CSS */
 
-main{
-    justify-content: center;
-    align-content: center;
-    margin: 0px;
+.mainInicio{
+    margin: 10px;
     padding: 0px;
-    border: 0px;
+    border: 0px;    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto ;
+    grid-template-areas: "misNoticias";
+    justify-items: center;
+}
+
+.row{
+    grid-area: misNoticias;
     width: 100%;
 }
 
+/* FOTOS */
+
 .mainFotos{
-    width: 100%;
     margin: 10px;
     border: 0px;
     padding: 0px;
@@ -114,20 +122,21 @@ body{
 
 /* FOOTER */
 
-footer{
-    background-image: linear-gradient(lightblue, white, lightblue);
-    text-align: center;
-    list-style-type: none;
-    border: 3px solid whitesmoke;
-}
-
-.footerName{
-    padding-top: 2px;
-    color: $colorFooter;
-    font-size: 20px;
-    text-align: center;
-    font-style: normal;
-    text-shadow: 4px 4px 4px gray;
+body{
+    footer{
+        background-image: linear-gradient(lightBlue, white, lightBlue);
+        text-align: center;
+        list-style-type: none;
+        width: 100%;
+            p{
+                padding-top: 0px;
+                color: $colorFooter;
+                font-size: 30px;
+                text-align: center;
+                font-style: normal;
+                text-shadow: 4px 4px 4px black;
+            }
+    }
 }
 
 /* FORMULARIO DE CONTACTO */
@@ -225,7 +234,7 @@ nav ul li{
 /* Pantallas Pequeñas */
 
 @media only screen and (max-width: 600px){
-
+    
     body{
         header{
             p{
@@ -235,15 +244,13 @@ nav ul li{
             }
         }
     }
-      
-    footer{
-        font-size: 15px;
-        border: 1px solid whitesmoke;
-    }
     
-    .footerName{
-        font-size: 20px;
-        text-shadow: 2px 2px 2px black;
+    body{
+        footer{
+            p{
+                font-size: 20px;
+            }
+        }
     }
     
     .contenedorFormulario{
@@ -332,8 +339,6 @@ nav ul li{
     
     }
 
-    /* Footer */
-
     .picture{
         width: 40%;
     }
@@ -341,7 +346,6 @@ nav ul li{
     /* Fotografías */
 
     .mainFotos{
-        width: 100%;
         margin: 10px;
         border: 0px;
         padding: 0px;
@@ -372,15 +376,12 @@ nav ul li{
         }
     }
 
-    footer{
-        font-size: 15px;
-        border: 1px solid whitesmoke;
-    }
-
-    .footerName{
-        padding-top: 0px;
-        font-size: 20px;
-        text-shadow: 2px 2px 2px black;
+    body{
+        footer{
+            p{
+                font-size: 20px;
+            }
+        }
     }
     
     .contenedorFormulario{
@@ -458,7 +459,6 @@ nav ul li{
     /* Fotografías */
     
     .mainFotos{
-        width: 100%;
         margin: 10px;
         border: 0px;
         padding: 0px;
@@ -539,21 +539,13 @@ nav ul li{
     }
     
     /* FOOTER */
-    
-    footer{
-        background-image: linear-gradient(lightblue, white, lightblue);
-        font-size: 30px;
-        text-align: center;
-        list-style-type: none;
-        border: 3px solid whitesmoke;
-    }
-    
-    .footerName{
-        color: $colorFooter;
-        font-size: 30px;
-        text-align: center;
-        font-style: normal;
-        text-shadow: 4px 4px 4px gray;
+     
+    body{
+        footer{
+            p{
+                font-size: 30px;
+            }
+        }
     }
     
     div iframe{
@@ -565,7 +557,6 @@ nav ul li{
     /* FOTOS */
         
     .mainFotos{
-        width: 100%;
         margin: 10px;
         border: 0px;
         padding: 0px;
@@ -703,21 +694,13 @@ nav ul li{
     }
     
     /* FOOTER */
-    
-    footer{
-        background-image: linear-gradient(lightblue, white, lightblue);
-        font-size: 30px;
-        text-align: center;
-        list-style-type: none;
-        border: 3px solid whitesmoke;
-    }
-    
-    .footerName{
-        color: $colorFooter;
-        font-size: 30px;
-        text-align: center;
-        font-style: normal;
-        text-shadow: 4px 4px 4px gray;
+      
+    body{
+        footer{
+            p{
+                font-size: 30px;
+            }
+        }
     }
         
     div iframe{
@@ -729,7 +712,6 @@ nav ul li{
     /* FOTOS */
     
     .mainFotos{
-        width: 100%;
         margin: 10px;
         border: 0px;
         padding: 0px;
@@ -869,26 +851,17 @@ nav ul li{
     
     /* FOOTER */
     
-    footer{
-        background-image: linear-gradient(lightblue, white, lightblue);
-        font-size: 30px;
-        text-align: center;
-        list-style-type: none;
-        border: 3px solid whitesmoke;
-    }
-    
-    .footerName{
-        color: $colorFooter;
-        font-size: 30px;
-        text-align: center;
-        font-style: normal;
-        text-shadow: 4px 4px 4px gray;
+    body{
+        footer{
+            p{
+                font-size: 30px;
+            }
+        }
     }
        
     /* FOTOS */
     
     .mainFotos{
-        width: 100%;
         margin: 10px;
         border: 0px;
         padding: 0px;
