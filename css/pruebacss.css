@@ -142,7 +142,7 @@ body footer {
     font-size: 30px;
     text-align: center;
     font-style: normal;
-    text-shadow: 4px 4px 4px black; }
+    text-shadow: 2px 2px 2px black; }
 
 body header {
   background-color: black;
@@ -306,7 +306,8 @@ td {
       font-size: 25px;
       text-shadow: 2px 2px 2px black; }
   body footer p {
-    font-size: 20px; }
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black; }
   .contenedorFormulario {
     display: grid;
     grid-template-columns: 1fr;
@@ -421,7 +422,8 @@ td {
       font-size: 25px;
       text-shadow: 2px 2px 2px black; }
   body footer p {
-    font-size: 20px; }
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black; }
   .contenedorFormulario {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
@@ -578,7 +580,8 @@ td {
       text-shadow: 4px 4px 4px black; }
   /* FOOTER */
   body footer p {
-    font-size: 30px; }
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black; }
   div iframe {
     border-radius: 2em;
     transform: scale(1, 1);
@@ -787,7 +790,7 @@ td {
       font-size: 30px;
       text-align: center;
       font-style: normal;
-      text-shadow: 4px 4px 4px black; }
+      text-shadow: 2px 2px 2px black; }
   body header {
     background-color: black;
     background-image: url("../img/perritos1.jpg");
@@ -1036,7 +1039,7 @@ td {
       font-size: 30px;
       text-align: center;
       font-style: normal;
-      text-shadow: 4px 4px 4px black; }
+      text-shadow: 2px 2px 2px black; }
   body header {
     background-color: black;
     background-image: url("../img/perritos1.jpg");
